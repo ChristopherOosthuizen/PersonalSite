@@ -5,6 +5,11 @@ import Home from './Home';
 import React from 'react';
 import About from './About';
 import Navbar from './Navbar';
+import Projects from './Projects';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -24,13 +29,24 @@ class App extends React.Component {
     
   }
   render() {
+    const router = createBrowserRouter([
+      {
+        path: "/",
+        element: <Home/>,
+
+      },{
+        path: "/projects",
+        element: <Projects/>
+      }
+    ]);
+    
     return (
         <div onScroll={this.handleScroll} class="bg-paper w-full h-full absolute font-['MedievalSharp']" >
                       <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet"></link>
             <Navbar/>
-            <Home/>
+            <RouterProvider router={router} />
           </div>
     
     );
