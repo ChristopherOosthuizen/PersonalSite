@@ -1,7 +1,6 @@
 
 import React from 'react';
-import Background from './background.png'
-import Resume from './resume.png'
+import Resume from './Resume.png'
 import Github from './github.png'
 import Linkedin from './divinchi.png'
 class Home extends React.Component {
