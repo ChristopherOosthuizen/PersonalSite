@@ -14,9 +14,9 @@ class Home extends React.Component {
                
                <div class="w-96 p-3 text-sm"> Hi, I'm Chris Oosthuizen, Programming has been a lifelong passion, and I'm continually exploring new areas. Besides my academic pursuits, I'm an avid rock climber and am always excited to learn new things.</div>
                <div class=" p-12 gap-8 h-16 columns-3">
-                    <div class="columns-1"><img class="w-16" src={Github} /></div>
-                    <div><img class="w-16" src={Resume} /></div>
-                    <div><img class="w-16" src={Linkedin}/></div>
+                    <a href="https://github.com/ChristopherOosthuizen" class="columns-1"><img class="w-16" src={Github} /></a>
+                    <a href="./Tech_Resume.pdf"><img class="w-16" src={Resume} /></a>
+                    <a href="https://www.linkedin.com/in/christopher-oosthuizen-0151a9211/"><img class="w-16" src={Linkedin}/></a>
                </div>
             </div>
             

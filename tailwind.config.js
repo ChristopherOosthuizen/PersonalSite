@@ -9,6 +9,7 @@ module.exports = {
       backgroundImage: {
         'mainpage': "url('./background.png')",
         'projects': "url('./projects.png')",
+        'contact': "url('./contact.png')",
       },
       fontFamily: {
         "MedievalSharp": ['Regular']

@@ -6,6 +6,7 @@ import React from 'react';
 import About from './About';
 import Navbar from './Navbar';
 import Projects from './Projects';
+import Contact from './Contact';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -34,10 +35,15 @@ class App extends React.Component {
         path: "/",
         element: <Home/>,
 
-      },{
+      },
+      {
         path: "/projects",
         element: <Projects/>
-      }
+      },
+      {
+        path: "/contact",
+        element: <Contact/>
+      },
     ]);
     
     return (
