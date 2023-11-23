@@ -1,7 +1,6 @@
 import React from "react";
 import Email from "./email.png";
 import Instagram from "./instagram.png"
-import Resume from './resume.png'
 import Github from './github.png'
 import Linkedin from './divinchi.png'
 class Contact extends React.Component {
