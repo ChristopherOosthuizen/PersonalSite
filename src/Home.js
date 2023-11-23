@@ -7,8 +7,13 @@ import Background from './background.png'
 class Home extends React.Component {
     
     render() {
-        return (<div class="">
-            <img src={Background} class="objet-scale-down object-center "/>
+        return (<div class="bg-mainpage w-full h-full bg-fill bg-center md:container md:mx-auto">
+            <div class="text-center text-align-top h-screen flex-col flex flex-wrap items-center justify-center">
+               <div class="  text-5xl"> Chris Oosthuizen </div>
+               <div>University of Houston Student and LLM researcher</div>
+               
+            </div>
+            
         </div>);
     }
 };

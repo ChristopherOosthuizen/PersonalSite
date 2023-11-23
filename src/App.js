@@ -25,7 +25,10 @@ class App extends React.Component {
   }
   render() {
     return (
-        <div onScroll={this.handleScroll} class="bg-paper w-full h-full absolute" >
+        <div onScroll={this.handleScroll} class="bg-paper w-full h-full absolute font-['MedievalSharp']" >
+                      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet"></link>
             <Navbar/>
             <Home/>
           </div>

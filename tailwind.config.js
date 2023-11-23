@@ -4,8 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    colors: {paper: '#fefaf4'},
-    extend: {},
+    colors: {paper: '#faf3e7'},
+    extend: {
+      backgroundImage: {
+        'mainpage': "url('./background.png')",
+      },
+      fontFamily: {
+        "MedievalSharp": ['Regular']
+      }
+    },
   },
   plugins: [],
 }
