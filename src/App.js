@@ -25,8 +25,9 @@ class App extends React.Component {
   }
   render() {
     return (
-        <div onScroll={this.handleScroll} class=" bg-gray-800 w-full h-full absolute" >
+        <div onScroll={this.handleScroll} class="bg-paper w-full h-full absolute" >
             <Navbar/>
+            <Home/>
           </div>
     
     );
