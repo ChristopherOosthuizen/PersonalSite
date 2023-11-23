@@ -9,6 +9,7 @@ class About extends React.Component {
                     <div class="text-3xl">About Me</div>
                 I'm Chris Oosthuizen, a University of Houston student and researcher at the SAIL lab, where I focus on large language models. Programming has been a lifelong passion, and I'm continually exploring new areas, especially in machine learning and knowledge graph research. Besides my academic pursuits, I'm an avid rock climber, constantly pushing my limits in both coding and climbing. My journey is driven by a deep commitment to learning and a desire to excel in every endeavor.
                 </div>
+                
                 </div>
             </div>
         )

@@ -4,6 +4,7 @@ import Node from "./Node";
 import Home from './Home';
 import React from 'react';
 import About from './About';
+import Navbar from './Navbar';
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -25,8 +26,7 @@ class App extends React.Component {
   render() {
     return (
         <div onScroll={this.handleScroll} class=" bg-gray-800 w-full h-full absolute" >
-            <Home/>
-            <About/>
+            <Navbar/>
           </div>
     
     );
