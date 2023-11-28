@@ -9,7 +9,7 @@ class Contact extends React.Component {
             <div class="bg-contact  w-full h-full bg-fill bg-center md:container md:mx-auto">
                 <div class="text-center  h-screen flex-col flex flex-wrap items-center justify-center">
                     <div class="text-5xl p-5 text-[#911b13]">Contact Me</div>
-                    <div class="w-96 p-4">Feel free to contact me about what ever you want I'm always intersted</div>
+                    <div class="w-96 p-4">Feel free to contact me about what ever you want I'm always interested</div>
                     <div class="columns-4">
                    <a href="https://www.instagram.com/chrisjoosthuizen/"><img class="w-16" src={Instagram}/></a>
                    <a href="mailto:christopher.jan.oosthuizen@gmail.com"><img class="w-16" src={Email}/></a>
